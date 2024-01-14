@@ -22,8 +22,9 @@
 - jieba 0.42.1: 这是Python的一个第三方库，提供了一些中文分词的功能，用于将邮件文本切分成词语和词组。您可以在[这里](https://zhuanlan.zhihu.com/p/23306218)查看jieba的文档和安装方法。
 
 ## 项目结构
-- normal:存放正常邮件训练集
-- spam:存储异常邮件训练集
+- 训练集在spamFilter.zip中，压缩包中包含以下两个文件：
+  - normal:存放正常邮件训练集
+  - spam:存储异常邮件训练集
 - chineseoutput.txt: 异常和正常训练集集只保留汉字和分类标签的结果存放文档
 - get_mail.py：获取邮箱里的邮件，并对其处理，形成测试集。
 - changeFormat.py:处理邮件，令其只保留汉字。
